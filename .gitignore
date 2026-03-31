@@ -1,0 +1,15 @@
+# Chặn thư mục môi trường ảo (Cực kỳ quan trọng vì nó nặng và không cần thiết)
+venv/
+
+# Chặn thư mục chứa dữ liệu MNIST (Để tránh đẩy file hàng trăm MB lên GitHub)
+data/
+
+# Chặn các file rác phát sinh khi chạy Python
+__pycache__/
+*.pyc
+
+# Chặn các file cấu hình của VS Code hoặc hệ thống
+.vscode/
+.DS_Store
+
+data/
