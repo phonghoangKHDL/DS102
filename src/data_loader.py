@@ -26,6 +26,7 @@ def load_mnist_ubyte(digit1=0, digit2=1):
 
     return X_bin, y_bin
 
+
 def load_mnist_full():
     train_img_name = 'train-images.idx3-ubyte' 
     train_lbl_name = 'train-labels.idx1-ubyte'

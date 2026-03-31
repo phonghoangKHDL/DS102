@@ -37,6 +37,7 @@ class LogisticRegressionGD:
         y_pred = self.sigmoid(z)
         return np.where(y_pred > 0.5, 1, 0)
     
+    
 class SoftmaxRegressionGD:
     def __init__(self, lr=0.1, epochs=50, n_classes=10):
         self.lr = lr
