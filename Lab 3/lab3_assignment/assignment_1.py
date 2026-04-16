@@ -15,7 +15,7 @@ indices = np.random.permutation(len(X_train))
 X_train, y_train = X_train[indices], y_train[indices]
 
 print("Đang huấn luyện SVM")
-model = SoftMarginSVM(C=1, lr=0.0001, epochs=100) 
+model = SoftMarginSVM(C=1, lr=0.01, epochs=10) 
 model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
