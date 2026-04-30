@@ -10,3 +10,5 @@ __pycache__/
 # Chặn các file cấu hình của VS Code hoặc hệ thống
 .vscode/
 .DS_Store
+
+Final_Project/
